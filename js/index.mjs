@@ -1,13 +1,13 @@
 // create a newBoard and add event listener
 const aksForAmmountOfSquares = () => {
-  const amount = prompt("insert the number of squares, max: 100");
+  const amount = prompt("insert the number of squares per line, max: 100");
 
-  if (amount > 1000 ) {
-    alert("cannot use a value greater than 1000")
+  if (amount > 100 ) {
+    alert("cannot use a value greater than 100")
     return
   }
 
-  for (let i = 0; i < amount; i++) {
+  for (let i = 0; i < amount * amount; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
     container.appendChild(square);
