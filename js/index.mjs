@@ -1,6 +1,6 @@
 // create a newBoard and add event listener
 const aksForAmmountOfSquares = () => {
-  const amount = prompt("insert the number of squares per line, max: 100");
+  const amount = prompt("insert the number of squares per, max: 100");
 
   if (amount > 100 ) {
     alert("cannot use a value greater than 100")
@@ -28,7 +28,7 @@ const container = document.querySelector(".container");
 const newBoard = document.querySelector(".newBoard");
 newBoard.addEventListener("click", aksForAmmountOfSquares);
 
-const squaresNumber = 256;
+const squaresNumber = 89 * 89 - 1;
 
 for (let i = 0; i < squaresNumber; i++) {
   const square = document.createElement("div");
