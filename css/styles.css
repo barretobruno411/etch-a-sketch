@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    background-color: rgb(241, 231, 219);
+}
+.container {
+    padding: 1vh;
+    min-width: 533px;
+    max-width: 960px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+/* .square:hover {
+    background-color: black;
+} */
